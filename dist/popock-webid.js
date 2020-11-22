@@ -15370,12 +15370,12 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"237d707c-vue-loader-template"}!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./PopockLogin.vue?vue&type=template&id=06238280&shadow
+// CONCATENATED MODULE: C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"237d707c-vue-loader-template"}!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./PopockWebid.vue?vue&type=template&id=382fb7d6&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.webId == null)?_c('button',{on:{"click":_vm.login}},[_vm._v("login")]):_c('button',{on:{"click":_vm.logout}},[_vm._v("logout")])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./PopockLogin.vue?vue&type=template&id=06238280&shadow
+// CONCATENATED MODULE: ./PopockWebid.vue?vue&type=template&id=382fb7d6&shadow
 
 // EXTERNAL MODULE: C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/regenerator-runtime/runtime.js
 var runtime = __webpack_require__("4e14");
@@ -15461,7 +15461,7 @@ external_Vue_default.a.use(vuex_esm["a" /* default */]);
 var browser = __webpack_require__("00e8");
 var browser_default = /*#__PURE__*/__webpack_require__.n(browser);
 
-// CONCATENATED MODULE: C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/thread-loader/dist/cjs.js!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/babel-loader/lib??ref--12-1!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./PopockLogin.vue?vue&type=script&lang=js&shadow
+// CONCATENATED MODULE: C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/thread-loader/dist/cjs.js!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/babel-loader/lib??ref--12-1!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./PopockWebid.vue?vue&type=script&lang=js&shadow
 
 
 //
@@ -15474,10 +15474,10 @@ var browser_default = /*#__PURE__*/__webpack_require__.n(browser);
 
 
 var popUri = 'https://solidcommunity.net/common/popup.html';
-/* harmony default export */ var lib_vue_loader_options_PopockLoginvue_type_script_lang_js_shadow = ({
+/* harmony default export */ var lib_vue_loader_options_PopockWebidvue_type_script_lang_js_shadow = ({
   store: store,
   props: ['debug'],
-  name: 'Popock-Login',
+  name: 'PopockWebid',
   data: function data() {
     return {
       webId: null
@@ -15486,7 +15486,7 @@ var popUri = 'https://solidcommunity.net/common/popup.html';
   created: function created() {
     console.log("DEBUG", this.debug);
     this.trackSession();
-    console.log('Popock-login created'); //this.storage = this.$store.state.login.storage
+    console.log('PopockWebid created'); //this.storage = this.$store.state.login.storage
 
     this.login();
   },
@@ -15577,9 +15577,9 @@ var popUri = 'https://solidcommunity.net/common/popup.html';
     }
   }
 });
-// CONCATENATED MODULE: ./PopockLogin.vue?vue&type=script&lang=js&shadow
- /* harmony default export */ var PopockLoginvue_type_script_lang_js_shadow = (lib_vue_loader_options_PopockLoginvue_type_script_lang_js_shadow); 
-// CONCATENATED MODULE: ./PopockLogin.vue?shadow
+// CONCATENATED MODULE: ./PopockWebid.vue?vue&type=script&lang=js&shadow
+ /* harmony default export */ var PopockWebidvue_type_script_lang_js_shadow = (lib_vue_loader_options_PopockWebidvue_type_script_lang_js_shadow); 
+// CONCATENATED MODULE: ./PopockWebid.vue?shadow
 
 
 
@@ -15588,7 +15588,7 @@ var popUri = 'https://solidcommunity.net/common/popup.html';
 /* normalize component */
 
 var component = normalizeComponent(
-  PopockLoginvue_type_script_lang_js_shadow,
+  PopockWebidvue_type_script_lang_js_shadow,
   render,
   staticRenderFns,
   false,
@@ -15598,7 +15598,7 @@ var component = normalizeComponent(
   ,true
 )
 
-/* harmony default export */ var PopockLoginshadow = (component.exports);
+/* harmony default export */ var PopockWebidshadow = (component.exports);
 // CONCATENATED MODULE: C:/Users/Smag/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/@vue/cli-service/lib/commands/build/entry-wc.js
 
 
@@ -15610,9 +15610,9 @@ var component = normalizeComponent(
 
 
 
-window.customElements.define('popock-login', vue_wc_wrapper(external_Vue_default.a, PopockLoginshadow))
+window.customElements.define('popock-webid', vue_wc_wrapper(external_Vue_default.a, PopockWebidshadow))
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=popock-login.js.map
+//# sourceMappingURL=popock-webid.js.map

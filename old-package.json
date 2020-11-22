@@ -1,5 +1,5 @@
 {
-  "name": "popock-webid",
+  "name": "popock-login",
   "version": "1.0.0",
   "description": "https://cli.vuejs.org/guide/prototyping.html\r ```\r npm install -g @vue/cli @vue/cli-service-global\r ```",
   "main": "index.js",
@@ -10,8 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vue build -t wc-async --name popock-webid PopockWebid.vue",
-    "serve": "vue serve PopockWebid.vue"
+    "build": "vue build -t wc-async --name popock-login PopockLogin.vue",
+    "serve": "vue serve PopockLogin.vue"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scenaristeur/popock-webid/issues"
+    "url": "https://github.com/scenaristeur/popock-login/issues"
   },
-  "homepage": "https://github.com/scenaristeur/popock-webid#readme"
+  "homepage": "https://github.com/scenaristeur/popock-login#readme"
 }
